@@ -6,3 +6,6 @@ Here we have two config files in order to make neceessary settings for sending e
 
 - `main.cf` file goes to vim `/etc/postfix/main.cf`
 - `sasl_passwd` file goes to `/etc/postfix/sasl_passwd`
+
+
+**PS: You don't need to use these config files if you already have email setting on your machine. Or feel free to use another configurations.**
