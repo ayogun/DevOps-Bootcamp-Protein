@@ -44,35 +44,38 @@ The requirements of he team as shown below:
 
 
 ### Usage: [![](./docs/img/pin.svg)](#usage)
+The script file should be added to .bashrc file in order to use the script ,as requested in project, as a bash command. 
 
 #### _Synopsis_
-build.sh &nbsp;   \[OPTION...\]
+`build.sh         [OPTION...]`
 
 #### _Examples_
     
-**-b** = _BRANCH_NAME_  </br>
-&emsp;&ensp;    Taking the build for the given BRANCH_NAME  </br>
-</br>
-**-n** = _NEW_BRANCH_ </br>
-&emsp;&ensp;    Create the new branch with the name of given NEW_BRANCH and take build for that branch. </br>
-</br>
-**-f** = _COMPRESSION_FORMAT_ </br>
-&emsp;&ensp;    After it takes the build' it compress the build with the given COMPRESSION_FORMAT as zip or tar.  </br>
-&emsp;&ensp;    COMPRESSION_FORMAT supports only zip and tar. Compressed artifact is placed under current directory </br>
-&emsp;&ensp;    it it is not specified. </br>
-</br>
-**-p** = _ARTIFCAT_PATH_     </br>
-&emsp;&ensp;    Compressed artifact is placed to the given path as ARTIFACT_PATH     </br>
-&emsp;&ensp;    The path should be absolute but not relative.   </br>
- </br>
-**-d** = _DEBUG_MODE_  <debug_mode>    </br>
-&emsp;&ensp;      According to given DEBUG_MODE value it enables debug mode. To enable debug mode, give "true", to disable       </br>
-&emsp;&ensp;      give "false". As default DEBUG_MODE is set to "false.  </br>
-</br>
-**--help**     </br>
-&emsp;&ensp;      Give this help list.       </br>
-</br>
-</br>
+>**-b** = _BRANCH_NAME_  </br>
+>&emsp;&ensp;    Taking the build for the given BRANCH_NAME  </br>
+></br>
+>**-n** = _NEW_BRANCH_ </br>
+>&emsp;&ensp;    Create the new branch with the name of given NEW_BRANCH and take build for that branch. </br>
+></br>
+>**-f** = _COMPRESSION_FORMAT_ </br>
+>&emsp;&ensp;    After it takes the build' it compress the build with the given COMPRESSION_FORMAT as zip or tar.  </br>
+>&emsp;&ensp;    COMPRESSION_FORMAT supports only zip and tar. Compressed artifact is placed under current directory </br>
+>&emsp;&ensp;    it it is not specified. </br>
+></br>
+>**-p** = _ARTIFCAT_PATH_     </br>
+>&emsp;&ensp;    Compressed artifact is placed to the given path as ARTIFACT_PATH     </br>
+>&emsp;&ensp;    The path should be absolute but not relative.   </br>
+> </br>
+>**-d** = _DEBUG_MODE_  <debug_mode>    </br>
+>&emsp;&ensp;      According to given DEBUG_MODE value it enables debug mode. To enable debug mode, give "true", to disable       </br>
+>&emsp;&ensp;      give "false". As default DEBUG_MODE is set to "false.  </br>
+></br>
+>**--help**     </br>
+>&emsp;&ensp;      Give this help list.       </br>
+></br>
+></br>
+
+
 
 ```shell
 
@@ -81,11 +84,9 @@ $ build.sh --help
 Usage:
     -b  <branch_name>     Branch name
     -n  <new_branch>      Create new branch
-    -f  <zip|tar>         Compress format
-    -p  <artifact_path>   Copy artifact to spesific path
-    -d  <debug_mode>      Enable debug mode
-
-
+    -f  <zip|tar>         Compress format should be either zip or tar
+    -p  <artifact_path>   Copy artifact to spesific path, please providee full path
+    -d  <debug_mode>      Enable debug mode(expect true or false)
 
 ```
 
