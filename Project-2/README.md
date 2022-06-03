@@ -8,9 +8,13 @@ With `build.sh` script you can take build of your code easy and fast.
 # Table of contents[![](./docs/img/pin.svg)](#table-of-contents)
 <br />
 
-1. [Aciklama](#aciklama)
-2. [Note](#not)
-3. [Usage](#usage)
+1. [About](#aciklama)
+    - [Technologies](#tech)
+    - [Scope](#scope)
+3. [Note](#not)
+4. [Usage](#usage)
+    - [Synopsis](#synopsis)
+    - [Examples](#examples)
 
 <br />
 
@@ -19,6 +23,17 @@ With `build.sh` script you can take build of your code easy and fast.
 <br />
 
 ### About: [![](./docs/img/pin.svg)](#aciklama)
+
+#### Technologies [](#tech)
+<span>
+<img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white" alt="drawing" width="100" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="drawing" width="100"/>
+<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="drawing" width="100"/>
+<img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="drawing" width="100"/>
+<img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="drawing" width="100"/>
+</span>
+
+#### Scope [](#scope)
 
 Here in this project, we have a java code and arbitrarily imagine that our developer team needs a script to take the build of a particular branch with a script. 
 The requirements of he team as shown below:
@@ -46,10 +61,10 @@ The requirements of he team as shown below:
 ### Usage: [![](./docs/img/pin.svg)](#usage)
 The script file should be added to .bashrc file in order to use the script ,as requested in project, as a bash command. 
 
-#### _Synopsis_
+#### _Synopsis_ [](#synopsis)
 `build.sh         [OPTION...]`
 
-#### _Examples_
+#### _Examples_ [](#examples)
     
 >**-b** = _BRANCH_NAME_  </br>
 >&emsp;&ensp;    Taking the build for the given BRANCH_NAME  </br>
