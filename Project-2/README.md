@@ -85,9 +85,6 @@ The script file should be added to .bashrc file in order to use the script ,as r
 >&emsp;&ensp;      According to given DEBUG_MODE value it enables debug mode. To enable debug mode, give "true", to disable       </br>
 >&emsp;&ensp;      give "false". As default DEBUG_MODE is set to "false.  </br>
 ></br>
->**--help**     </br>
->&emsp;&ensp;      Give this help list.       </br>
-></br>
 ></br>
 
 

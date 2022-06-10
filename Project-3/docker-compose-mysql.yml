@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  mysql:
+    platform: linux/x86_64
+    image: mysql:8
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - ~/Desktop/app/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_USER=admin
+      - MYSQL_DATABASE=admin
+    deploy:
+      resources:
+        limits:
+          cpus: '0.01'
+          memory: 50M
