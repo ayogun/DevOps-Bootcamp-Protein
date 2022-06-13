@@ -1,21 +1,7 @@
 
 # Protein DevOps Engineering Bootcamp 3.Week 1.Project
-</br>
 
-My dear friend who ended up here to evaluate my project. The scripts that you will be looking for are:
-- `first_script.sh`
-- `docker_dev_tools.sh` 
 
- For first part of the homework, you can check `first_script.sh`. For second part you check `docker_dev_tools.sh`.
-
-</br>
-
----
-
----
-
-</br>
-</br>
 
 # Table of contents [![](./docs/img/pin.svg)](#table-of-contents)
 
