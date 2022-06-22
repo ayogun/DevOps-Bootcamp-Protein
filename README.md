@@ -1,6 +1,6 @@
 # DevOps-Bootcamp
 
-I am attending a [DevOps Engineer Bootcamp](https://www.patika.dev/bootcamp/protein-devops-engineer-bootcamp) sponsored by **Protein**. 
+I am attending a [DevOps Engineer Bootcamp](https://www.patika.dev/bootcamp/protein-devops-engineer-bootcamp) sponsored by [**Protein**](https://protein.tech). 
 Here in this repository, I am collecting the projects that I developed during the bootcamp. 
 I will ellaborate this section as the time goes by.
 
