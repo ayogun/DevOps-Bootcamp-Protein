@@ -23,11 +23,7 @@ Under the scope of this bootcamp, the covered topics were as followed by:
 
 &nbsp;
 
-**_Projects are built with;_**
 
-[![Linux][#linux]][@linux] [![Bash][#bash]][@bash] [![Docker][#docker]][@docker] [![Git][#git]][@git] [![VirtualBox][#virtualbox]][@virtualbox] [![Vagrant][#vagrant]][@vagrant]
-
-&nbsp;
 
 ### About
 
@@ -42,6 +38,11 @@ Under the scope of this bootcamp, the covered topics were as followed by:
 &nbsp;
 
 
+**_Projects are built with;_**
+
+[![Linux][#linux]][@linux] [![Bash][#bash]][@bash] [![Docker][#docker]][@docker] [![Git][#git]][@git] [![VirtualBox][#virtualbox]][@virtualbox] [![Vagrant][#vagrant]][@vagrant]
+
+&nbsp;
 
 
 ### Week 1:
@@ -60,7 +61,7 @@ Under the scope of this bootcamp, the covered topics were as followed by:
 
 ### Week 2:
  
-#### Version Control & Git - Build & Package Manager Tools
+#### Version Control & Git - Build & Package Manager Tools
 - Introduction to Version Control Systems
 - Git & Github
 - Git for DevOps
@@ -73,9 +74,9 @@ Under the scope of this bootcamp, the covered topics were as followed by:
 - Build and run applications in JS
 - Build Tools & Docker
 
-### Week 3: 
+### Week 3: 
  
-#### Containers with Docker
+#### Containers with Docker
 - What is a Container?
 - Docker Components and architecture explained
 - Docker vs. Virtual Machine
@@ -112,7 +113,7 @@ Under the scope of this bootcamp, the covered topics were as followed by:
 - Jenkins Shared Library
 - WebHooks - Trigger Jenkins Jobs automatically
  
-### Week 5:
+### Week 5:
  
 #### Container Orchestration with Kubernetes
 - Introduction to Kubernetes
@@ -139,9 +140,9 @@ Under the scope of this bootcamp, the covered topics were as followed by:
 - Prometheus Operator Demo with Helm: Setup Prometheus Monitoring in K8s
 - Secure your cluster - Authorization with Role-Based Access Control (RBAC) 
  
-### Week 6:
+### Week 6:
  
-#### Kubernetes on AWS - EKS
+#### Kubernetes on AWS - EKS
  
 - AWS & Kubernetes
 - AWS Container Services: Overview (ECR, ECS, EKS, Fargate)
@@ -186,10 +187,10 @@ Under the scope of this bootcamp, the covered topics were as followed by:
 - Configuration management with Ansible
 
 
+&nbsp;
 
 
-
-### :computer: **Used Technologies**
+## :computer: **Used Technologies**
 
 > - Linux
 > - Bash Scripting
