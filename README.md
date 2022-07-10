@@ -8,7 +8,7 @@ I will ellaborate this section as the time goes by.
 &nbsp;
 
 Under the scope of this bootcamp, the covered topics were as followed by:
-- [Introduction to DevOPs - Operation System & Linux Basics](#)
+- Introduction to DevOPs - Operation System & Linux Basics
 - Version Control & Git - Build & Package Manager Tools
 - Containers with Docker
 - Build Automation - CI/CD with Jenkins
