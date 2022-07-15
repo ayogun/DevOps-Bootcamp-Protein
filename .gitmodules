@@ -1,3 +1,6 @@
 [submodule "Final-Project"]
 	path = Final-Project
 	url = https://github.com/byaliego/DevOps-Bootcamp-Protein.git
+[submodule "Project-Final"]
+	path = Project-Final
+	url = https://github.com/byaliego/Final_Project-DevOps_Bootcamp.git
